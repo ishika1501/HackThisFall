@@ -1,25 +1,24 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+</style>
+
 *{
     margin: 0%;
     border: 0%;
     overflow-x: hidden;
-}
-.page1 {
-    background-color: rgb(0, 0, 0);
-    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
 }
 
-.photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    
-  }
+section {
+    width: 100vw;
+    height: 100vh;
 
-  .page2 {
-      width: 100vw;
-      height: 100vh;
-      background-color: rgb(0, 0, 0);
-      overflow-x: hidden;
+}
 
-  }
+.one {
+    background-image: url("./Assets/window\ glass.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(17, 3, 3);
+}
+
