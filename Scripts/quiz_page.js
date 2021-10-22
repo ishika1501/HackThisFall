@@ -1,3 +1,6 @@
+// import {q} from '../Questions/random'
+const qu=require('../Questions/random')
+
 var main_content = document.querySelector(".main_content");
 var ans = document.getElementById("ans");
 var cont = document.querySelector(".cont");
@@ -14,4 +17,10 @@ cont.addEventListener('click',()=>{
     ans.style.display="none";
 
 })
+
+function getQsn(){
+    return 
+}
+getQsn();
+
 
