@@ -66,13 +66,16 @@ getQsn().then(data=>{
     showQsn(data);
 })
 
+var turns=0;
 cont.addEventListener('click',()=>{
-    getQsn().then(data=>{
-        showQsn(data);
-    })
-    main_content.classList.remove("blur");
-    ans.style.display="none";
-
+    if(turns<10){
+        getQsn().then(data=>{
+            showQsn(data);
+        })
+        main_content.classList.remove("blur");
+        ans.style.display="none";
+        turns=turns+1;
+    }
 })
 
 
