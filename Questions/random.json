@@ -180,7 +180,43 @@
         ],
         "correct":2,
         "Explaination":"Air Travel is the single fastest-growing cause of climate change today"
-    }
+    },
+    {
+    "Question": "When does World Environment Day celebrated?",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ecologia.jpg",
+    "option": ["5 August", "5 June", "5 October", "5 November"],
+    "correct": 2,
+    "Explanation":
+      "World Environment Day is observed on June 5 every year. The purpose of World Environment Day is to spread awareness about the threat to the environment due to rising pollution levels and climate change"
+  },
+
+  {
+    "Question": "What is the theme of World Environment Day 2021?",
+    "img": "https://1.bp.blogspot.com/-2qSaMv0EwD0/Xr503Q4rlxI/AAAAAAAAAz8/hpkGGk0BL5kHqF7r-6SynSDb21Suk2I0gCLcBGAsYHQ/s1600/20190818_205708_0000_1.webp",
+    "option": [
+      "Ecosystem Restoration",
+      "Global Warming",
+      "Rainwater Harvesting",
+      "None of these"
+    ],
+    "correct": 1,
+    "Explanation":
+      "The theme of World Environment Day 2021 is Ecosystem Restoration"
+  },
+
+  {
+    "Question": "Which day is celebrated on 22nd Apirl?",
+    "img":"",
+    "option":[
+      "World Water day",
+      "World Forest day",
+      "World Earth day",
+      "None of the above"
+    ],
+    "correct": 3,
+    "Explanation":"Earth Day is celebrated on April 22 every year. The day marks the anniversary of the birth of the modern environmental movement in 1970"
+  }
+    
 ]
 
 
