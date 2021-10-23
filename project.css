@@ -24,11 +24,20 @@ section {
     height: 100vh;
 
 }
+.text {
+  margin-top: 80vh;
+  color: rgb(254, 254, 255);
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 
+}
 .one {
-    background-image: url("./Assets/window\ glass.jpg");
+    background-image: url("./Assets/Desktop\ -\ 10.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(0, 0, 0);
+    color: rgb(254, 254, 255);
 }
 
 /********** page2************/
@@ -41,10 +50,11 @@ section {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  font-size: 25px;
+  font-size: 19px;
 }
 .wrap {
   position: relative;
+  background-color: black;
 }
 
 .slide {
@@ -62,23 +72,23 @@ section {
 
 .slide1 {
   background-image: url("./Assets/Desktop\ -\ 2.png");
-  background-attachment: fixed;
+  
   Background-size: contain ;
-  Background-size: 100% 100%;
+  Background-size: 60% 70%;
   
   
 }
 .slide2 {
   background-image: url("./Assets/Desktop\ -\ 5.png");
-  background-attachment: fixed;
+  
   Background-size: contain ;
-  Background-size: 100% 100%;
+  Background-size: 60% 70%;
 }
 .slide3 {
   background-image: url("./Assets/Desktop\ -\ 4.png");
-  background-attachment: fixed;
+ 
   Background-size: contain ;
-  Background-size: 100% 100%;
+  Background-size: 60% 70%;
 }
 
 .slide-content {
@@ -90,8 +100,8 @@ section {
 }
 
 .slide-content div {
-  height: 72vh;
-  width: 60vw;
+  height: 52vh;
+  width: 50vw;
   color:white;
   background-color: rgba(0, 0, 0, 0.63);
   padding: 10px 20px;
@@ -149,33 +159,35 @@ section {
 .three {
   height: 100vh;
   width: 100vw;
-  background-image: url("./Assets/kevin-b-leigh-nLPOF9Z2oqA-unsplash.jpg");
+  background-color: black;
   background-size:cover;
-  justify-items: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   
  
 }
 
 .quiz {
- font-size: 30px;
-  margin-top: 70px;
-  height: 100vh;
-  width: 80vw;
-  background: rgba( 65, 117, 5, 0.35 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 0.5px );
-  -webkit-backdrop-filter: blur( 0.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ font-size: 15px;
+  margin-top: 10px;
+  height: 30vh;
+  width: 40vw;
 
-  
+
+background-color: rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
 }
 
 .myButton {
 	box-shadow: 0px 10px 14px -7px #000000;
-	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
-	background-color:#89c403;
+	background:transparent;
+	background-color:#000000;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -185,7 +197,7 @@ section {
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #528009;
+	text-shadow:0px 1px 0px #020202;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
