@@ -210,4 +210,17 @@ const q = [
     "Explanation":
       'The theme of World Environment Day 2021 is Ecosystem Restoration',
   },
+
+  {
+    "Question": "Which day is celebrated on 22nd Apirl?",
+    "img":"",
+    "option":[
+      'World Water day',
+      'World Forest day',
+      'World Earth day',
+      'None of the above'
+    ],
+    "correct": 3,
+    "Explanation":"Earth Day is celebrated on April 22 every year. The day marks the anniversary of the birth of the modern environmental movement in 1970"
+  }
 ];
