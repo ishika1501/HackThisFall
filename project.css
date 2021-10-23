@@ -28,7 +28,7 @@ section {
 .one {
     background-image: url("./Assets/window\ glass.jpg");
     background-repeat: no-repeat;
-    background-color: rgb(17, 3, 3);
+    background-color: rgb(0, 0, 0);
 }
 
 /********** page2************/
@@ -145,3 +145,52 @@ section {
 }
 
 
+/***********************page3**********************/
+.three {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./Assets/anton-rusetsky-PTiNuIxdKrk-unsplash.jpg");
+  background-size:contain;
+  backg
+ 
+}
+
+.quiz {
+  margin-top: 70px;
+  height: 50vh;
+  width: 60vw;
+  background: rgba( 0, 0, 0, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+        
