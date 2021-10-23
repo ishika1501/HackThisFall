@@ -149,22 +149,27 @@ section {
 .three {
   height: 100vh;
   width: 100vw;
-  background-image: url("./Assets/anton-rusetsky-PTiNuIxdKrk-unsplash.jpg");
-  background-size:contain;
-  backg
+  background-image: url("./Assets/kevin-b-leigh-nLPOF9Z2oqA-unsplash.jpg");
+  background-size:cover;
+  justify-items: center;
+  justify-content: center;
+  
  
 }
 
 .quiz {
+ font-size: 30px;
   margin-top: 70px;
-  height: 50vh;
-  width: 60vw;
-  background: rgba( 0, 0, 0, 0.55 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6px );
--webkit-backdrop-filter: blur( 6px );
-border-radius: 10px;
+  height: 100vh;
+  width: 80vw;
+  background: rgba( 65, 117, 5, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 0.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 
+  
 }
 
 .myButton {
