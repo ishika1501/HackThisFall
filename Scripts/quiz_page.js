@@ -1,7 +1,3 @@
-// import {q} from '../Questions/random'
-//const qu=require('../Questions/random')
-
-// const { Check } = require("@material-ui/icons");
 
 var main_content = document.querySelector(".main_content");
 var ans = document.getElementById("ans");
@@ -18,7 +14,9 @@ let box=document.querySelectorAll('.form-check-input');
 //Desciption
 var explain=document.getElementById('explain');
 
-var status=document.getElementById('status');
+var result=document.getElementById('status');
+
+var cont=document.getElementById('cont');
 
 form_check.forEach((ele => ele.addEventListener('click', () => {
     main_content.classList.add("blur");
@@ -26,11 +24,7 @@ form_check.forEach((ele => ele.addEventListener('click', () => {
 })
 ))
 
-cont.addEventListener('click',()=>{
-    main_content.classList.remove("blur");
-    ans.style.display="none";
 
-})
 
 function getQsn(){
     return fetch('../Questions/random.json').then(response=>response.json()).then(data=>{
@@ -40,30 +34,50 @@ function getQsn(){
 }
 
 function showQsn(q){
+    
+    var t=q.length;
+    var x=Math.floor(Math.random()*t);
+
     function checked(i){
-        console.log(i);
-        if(q[0].correct==i){
-           status.innerText="Correct";
+        if(q[x].correct==i){
+           result.innerText="Correct";
         }else{
-            status.innerText="Wrong";
+        result.innerText="Wrong";
         }
     }
-    question.innerHTML=q[0].Question;
-    op1.innerHTML=q[0].option[0];
-    op2.innerHTML=q[0].option[1];
-    op3.innerHTML=q[0].option[2];
-    op4.innerHTML=q[0].option[3];
-    explain.innerHTML=q[0].Explaination;
+
+    
+    question.innerHTML=q[x].Question;
+    op1.innerHTML=q[x].option[0];
+    op2.innerHTML=q[x].option[1];
+    op3.innerHTML=q[x].option[2];
+    op4.innerHTML=q[x].option[3];
+    explain.innerHTML=q[x].Explaination;
+
     box.forEach(b => {
         b.addEventListener("click",()=>{
             checked(b.dataset.index);
         })
     });
 }
+
 getQsn();
 getQsn().then(data=>{
     showQsn(data);
 })
-showQsn();
+
+var turns=0;
+cont.addEventListener('click',()=>{
+    if(turns<10){
+        getQsn().then(data=>{
+            showQsn(data);
+        })
+        main_content.classList.remove("blur");
+        ans.style.display="none";
+        turns=turns+1;
+    }
+})
+
+
 
 
