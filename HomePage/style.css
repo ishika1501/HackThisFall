@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+  background-position: center;
+    width: 100%; 
+    height: 100vh; 
+    animation: slide 40s infinite;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.9);  
+    /* //here "a" (alpha) shows  transparency */
+}
+
+.left-menu{
+    width: 25%;
+    line-height: 100px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    
+  
+}
+
+.left-menu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+}
+
+.right-menu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    /* background-color: red; */
+}
+
+.right-menu ul{
+    margin-left: 30rem;
+}
+
+.right-menu ul li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+    font-size: 15px;
+  
+    font-weight: bold;
+    margin-left: 4rem;
+    text-transform: uppercase;
+}
+
+.right-menu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#firstlist{
+    color:orange;
+}
+
+.right-menu ul li a:hover{
+    color: orange;
+}
+
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-align: center;
+    color: #fff
+}
+
+.text h1{
+    font-size: 62px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin: 14px 0px;
+    
+}
+
+.text h3{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@keyframes slide{
+    0%{
+        background-image: url(Images/image1.jfif);
+    }
+    20%{
+        background-image: url(Images/image2.jpg);
+    }
+    20.01%{
+        background-image: url(Images/image3.jfif);
+    }
+    40%{
+        background-image: url(Images/image4.jfif);
+    }
+    40.01%{
+  background-image: url(Images/image5.jpg);
+    }
+    60%{
+        background-image: url(Images/image6.jpg);
+    }
+    60.01%{
+        background-image: url(Images/image7.jfif);
+    }
+    80%{
+        background-image: url(Images/image8.jfif);
+    }
+    80.01%{
+        background-image: url(Images/image9.jfif);
+    }
+    100%{
+        background-image: url(Images/image10.png);
+    }
+  }
+
