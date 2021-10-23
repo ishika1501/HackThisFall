@@ -24,8 +24,17 @@ section {
     height: 100vh;
 
 }
+.text2 {
+  font-size: 40px;
+  margin-top: 10vh;
+  color: rgb(254, 254, 255);
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+
+}
 .text {
-  margin-top: 80vh;
+  margin-top: 65vh;
   color: rgb(254, 254, 255);
   margin-left: 100px;
   margin-right: 100px;
@@ -40,7 +49,7 @@ section {
     color: rgb(254, 254, 255);
 }
 
-/********** page2************/
+/**************************************** page2***************************************8***********/
 #slider,.two,
 .wrap,
 .slide-content {
@@ -139,7 +148,7 @@ section {
 
 #dir-control-right {
   right: 0;
-  margin-right: 60px;
+  margin-right: 40px;
 }
 .slider-active {
   visibility: hidden;
