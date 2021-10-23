@@ -57,21 +57,26 @@
     width: 100%;
 }
 
-
+.option{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    border: 1px solid white;
+    padding-left: 5px;
+}
 
 .form-check{
     font-size: 1.5rem;
-    /* height: 30px; */
-    border-radius: 5px;
-    margin-bottom: .5rem;
     width: 100%;
-    border: 1px solid white;
+    border-radius: 5px;
     padding: 5px;
+    /* height: 30px; */
     /* background-color: white; */
 
 }
 
-.ans{
+.ans, #score_sheet{
     position: absolute;
     display: none;
 
@@ -89,7 +94,6 @@
 }
 
 .status{
-    color: red;
     font-size: 1.8rem;
     margin: auto;
     margin-bottom: 10px;
@@ -99,20 +103,29 @@
     color: white;
 }
 
-.cont{
-    
+button{
+    margin: auto;
     display: flex;
-    margin: auto ;
     padding: 10px;
+    justify-content: center;
     border-radius: 2px;
     border: 1px solid white;
     background-color: white;
     color: black;
     margin-top: 20px;
+    width: 7rem;
 
 }
 
-.cont:hover{
+button:hover{
     background-color: black;
     color: white;
 }
+
+#score_sheet > div{
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+

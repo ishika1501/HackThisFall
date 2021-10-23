@@ -16,38 +16,42 @@
             <img class="image" src="../Assets/fire.jpg" alt="">
             <div class="question" id="question"></div>
 
-            <div class="options">
-                <div class="form-check">
-                    <input class="form-check-input" data-index="0" type="radio" name="flexRadioDefault">
-                    <label class="form-check-label" id="op1" for="flexRadioDefault1">
-                        
-                    </label>
+            <div class="options" unselectable="on" >
+                <div class="option">
+                    <span>⨀</span>
+                    <!-- <input class="form-check-input" data-index="0" type="radio" name="flexRadioDefault"> -->
+                    <div class="form-check" data-index="0" id="op1">
+                    </div>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" data-index="1" type="radio"  name="flexRadioDefault" >
-                    <label class="form-check-label" id="op2" for="flexRadioDefault2">
-                       
-                    </label>
+                <div class="option">
+                    <span>⨀</span>
+                    <!-- <input class="form-check-input" data-index="1" type="radio" name="flexRadioDefault"> -->
+                    <div class="form-check" data-index="1" id="op2">
+                    </div>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" data-index="2" type="radio" name="flexRadioDefault" >
-                    <label class="form-check-label" id="op3" for="flexRadioDefault1">
-                        
-                    </label>
+                <div class="option">
+                    <span>⨀</span>
+                    <!-- <input class="form-check-input" data-index="2" type="radio" name="flexRadioDefault"> -->
+                    <div class="form-check" data-index="2" id="op3">
+                    </div>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" data-index="3" type="radio" name="flexRadioDefault">
-                    <label class="form-check-label" id="op4" for="flexRadioDefault2">
-                        
-                    </label>
+                <div class="option">
+                    <span>⨀</span>
+                    <!-- <input class="form-check-input" data-index="3" type="radio" name="flexRadioDefault"> -->
+                    <div class="form-check" data-index="3" id="op4">
+                    </div>
                 </div>
 
             </div>
+            <div style="display: flex; width: 100%; justify-content: space-evenly;">
+                <button class="cont" id="cont"> Continue >></button>
+                <button class="check_ans" id="check_ans"> Answer</button>
 
-          
+            </div>
+
         </div>
 
         <div class="ans" id="ans">
@@ -58,9 +62,21 @@
                 officia hic quo voluptate, officiis soluta tenetur vero ea? Eius voluptates id blanditiis aliquid a
                 est ipsum eum? Libero reiciendis facere unde, optio a harum!
             </div>
-            <button class="cont" id="cont" > Continue >></button>
+            <button class="cont" id="cont1"> Continue >></button>
+        </div>
+
+        <div id="score_sheet">
+            <div id="star"></div>
+            <div id="points"></div>
+            <div>Score</div>
+            <div style="display: flex; width: 100%; justify-content: space-evenly;">
+                <button  id="retest">Re-Test</button>
+                <button  id="exit"> <a style="text-decoration: none; color: white;" href="../project.html">Exit</a></button>
+
+            </div>
         </div>
     </div>
 </body>
 <script type="module" src="../Scripts/quiz_page.js"></script>
+
 </html>
