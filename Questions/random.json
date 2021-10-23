@@ -186,7 +186,7 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ecologia.jpg",
     "option": ["5 August", "5 June", "5 October", "5 November"],
     "correct": 2,
-    "Explanation":
+    "Explaination":
       "World Environment Day is observed on June 5 every year. The purpose of World Environment Day is to spread awareness about the threat to the environment due to rising pollution levels and climate change"
   },
 
@@ -200,7 +200,7 @@
       "None of these"
     ],
     "correct": 1,
-    "Explanation":
+    "Explaination":
       "The theme of World Environment Day 2021 is Ecosystem Restoration"
   },
 
@@ -214,7 +214,7 @@
       "None of the above"
     ],
     "correct": 3,
-    "Explanation":"Earth Day is celebrated on April 22 every year. The day marks the anniversary of the birth of the modern environmental movement in 1970"
+    "Explaination":"Earth Day is celebrated on April 22 every year. The day marks the anniversary of the birth of the modern environmental movement in 1970"
   }
     
 ]
