@@ -14,7 +14,7 @@ This thing we are trying to do by creating awareness among the people that what 
 3. ### Weather report : 
       One can check the present weather condition of his/her area or anywhere else.
 
- ## Click [Here](https://github.com) to view our project
+ ## Click [Here](https://ishika1501.github.io/HackThisFall/) to view our project
 
 ## Team Members :
 1. [Ishika Raj](https://github.com/ishika1501)
