@@ -56,16 +56,20 @@ function showQsn(q) {
         x = Math.floor(Math.random() * t);
     }
     unique_index.push(x);
+    
     function checked(i) {
-        if (q[x].correct == i) {
-            box[q[x].correct].style.backgroundColor = "green"
-            score = score + 1;
-            result.innerHTML = "Correct";
-        } else {
+        if(i){
+            if (q[x].correct == i) {
+                box[q[x].correct].style.backgroundColor = "green"
+                score = score + 1;
+                result.innerHTML = "Correct";
+            } 
+        }else {
             box[q[x].correct].style.backgroundColor = "green"
             result.innerHTML = "Wrong";
         }
     }
+
     points.innerText = score;
     update_stars(score);
     
@@ -89,6 +93,7 @@ function showQsn(q) {
                 touch = 1;
             }
         })
+
     });
 
 }
