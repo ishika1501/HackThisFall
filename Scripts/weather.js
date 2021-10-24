@@ -9,14 +9,12 @@ var inpu=document.getElementById('inpu');
 var cityname;
 var search=document.querySelector('#search');
 search.addEventListener("click",()=>{
-    // cityname=document.querySelector('input').value;
-    // console.log(document.querySelector('input').value);
     fetch('https://api.openweathermap.org/data/2.5/weather?q='+document.querySelector('input').value+'&appid=cd53e372a71a5447e5178d1bfdc17ff0').then(response=>response.json()).then(data=>showinfo(data)).catch(err=>alert("City name not valid"));
-
+    document.querySelector('input').value="";
 })
 console.log(cityname);
 var info;
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Guwahati&appid=cd53e372a71a5447e5178d1bfdc17ff0').then(response=>response.json()).then(data=>showinfo(data)).catch(err=>alert("City name not valid"));
+
 
 console.log(info);
 
