@@ -124,6 +124,19 @@ body::-webkit-scrollbar {
   Background-size: contain ;
   Background-size: 60% 70%;
 }
+.slide4 {
+  background-image: url("./Assets/Desktop\ -\ 3.png");
+ 
+  Background-size: contain ;
+  Background-size: 60% 70%;
+}
+
+.slide5 {
+  background-image: url("./Assets/photo-1546026423-cc4642628d2b.jfif");
+
+  Background-size: contain ;
+  Background-size: 60% 70%;
+}
 
 .slide-content {
   display: flex;
@@ -282,3 +295,79 @@ background-color: rgb(255, 255, 255);
 } 
 
         
+/************************************* last page**********************************************/
+.blur {
+  overflow: hidden;
+  position: relative;
+}
+
+.blur + .blur {
+  margin-top: 20px;
+}
+
+.blurry {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  content: '';
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.alt .blurry {
+  background-position: left top;
+  left: 0;
+  right: auto;
+}
+
+.middle .blurry {
+  background-position: center top;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.overlay {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  height: 100%;
+  padding: 20px 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.alt .overlay {
+  left: 0;
+  right: auto;
+}
+
+.middle .overlay {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.overlay h2 {
+  font-size: 36px;
+  margin: 0;
+}
